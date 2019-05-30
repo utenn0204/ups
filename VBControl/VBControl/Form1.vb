@@ -19,8 +19,8 @@ Public Class Form1
         End If
         If System.IO.File.Exists("C:\UPSVoltagesettings\config.txt") Then
             FileOpen(1, "C:\UPSVoltagesettings\config.txt", OpenMode.Input)
-            high &= LineInput(1)
-            low &= LineInput(1)
+            high = LineInput(1)
+            low = LineInput(1)
             FileClose(1)
             highestcharging.Text = "充電上限電壓:" & high
             lowestcharging.Text = "充電下限電壓:" & low
