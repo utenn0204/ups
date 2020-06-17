@@ -1,4 +1,4 @@
-﻿Imports System
+Imports System
 Imports System.IO.Ports
 Imports System.Text
 Public Class Form1
