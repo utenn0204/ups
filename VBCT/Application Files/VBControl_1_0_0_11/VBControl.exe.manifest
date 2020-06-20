@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VBControl.exe" version="1.0.0.11" publicKeyToken="42b2ac31eb9aa918" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VBControl" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VBControl.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+         如需變更 Windows 使用者帳戶控制層級，
+         請以下列其中一個項目取代 requestedExecutionLevel 節點。
+
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        如需利用回溯相容性的檔案及登錄模擬，
+        請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VBControl.exe" size="29664">
+      <assemblyIdentity name="VBControl" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>absDOI9o8x0cDpVBH+41pMdj4k0xWrVHcTHjW+P6O7Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="VBControl.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c922zfRb5ORzqEo8SDjt8Mx8lDMhGTWhqKcK/oileDM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-G6V7QEO\Utenn" issuerKeyHash="b486e1efae8fed3bd859bfc28b68bd53bfe260f8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hItmaCB0zVucVExTM2YW2sZ15W3RVB8M2WOJgCj3Aqs=</DigestValue></Reference></SignedInfo><SignatureValue>q58jlsFiKJ8qGTu76KGsGNarYpLB76VTArkTPauB17J0v8CW7SXiSmXWt6aSyYt4t6BKgA5mK0BTgfx195s8BHeVD3BIcH8mu0C1hSdCYy08fx2n8zF94GL9LcWeC/oj5fhtKUAfvBag10zLmihfwYSc9f5xvBU5WMeqLlCobGg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xJDdj06HCQwarGRp0prLaLDiXeSguvuDSibCQ6qjhKhzmafcYkKPfvoW85Ii1NuJEp5BV4OYjirb5W8TZhzw4Zrqls83peDwhxFaVW+OP71/CR1Umq9pNkTy6H5PcYRUDc7kL6vmtLO9dhAV/FMiq5QAjhrnkI+oA3twbt4I/hk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ab02f728808963d90c1f54d16de575c6da166633534c549c5bcd742068668b84" Description="" Url=""><as:assemblyIdentity name="VBControl.exe" version="1.0.0.11" publicKeyToken="42b2ac31eb9aa918" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-G6V7QEO\Utenn</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2b982ZVFrP7tgmNYSGKkb5FW460s8VlqsI/Ibspbz1Q=</DigestValue></Reference></SignedInfo><SignatureValue>bDrwaMA6uP3hgHFkY/Q4Dc9EUMAAqHxT8ojrMqen9dXsg6IT3+9GoqtZRggFVD0MZIak/IzARK+2UdPw2oporX4dzTIlQEJZc9VZ6yHEsacwBA04Bt0qcinh+4NX02ft+bRMROOe9XfD2kbo6Lv4sWx77q60hCldQ3Fxn4QTpkA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xJDdj06HCQwarGRp0prLaLDiXeSguvuDSibCQ6qjhKhzmafcYkKPfvoW85Ii1NuJEp5BV4OYjirb5W8TZhzw4Zrqls83peDwhxFaVW+OP71/CR1Umq9pNkTy6H5PcYRUDc7kL6vmtLO9dhAV/FMiq5QAjhrnkI+oA3twbt4I/hk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQIYbej0913L5OzdqoRTTRqzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEcANgBWADcAUQBFAE8AXABVAHQAZQBuAG4wHhcNMTkwMjE3MDc0MzM5WhcNMjAwMjE3MTM0MzM5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEcANgBWADcAUQBFAE8AXABVAHQAZQBuAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMSQ3Y9OhwkMGqxkadKay2iw4l3koLr7g0omwkOqo4Soc5mn3GJCj376FvOSItTbiRKeQVeDmI4q2+VvE2Yc8OGa6pbPN6Xg8IcRWlVvjj+9fwkdVJqvaTZE8uh+T3GEVA3O5C+r5rSzvXYQFfxTIquUAI4a55CPqAN7cG7eCP4ZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAbtJ8yJGOtrVRpj+WikD9WYI+LA99KiOasPpE5wb3CnI9q4q+D2gVk/tYfRe04Llu9POTDDpiqR5rn6QfJ6l88nZBhVMUgstKc8AfL2SmADYLuzKcaOB5RidJgunyoJidox2v8chkDRxnSAZWofugp7oo1c/KmIMXRVZhJXe32uk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
