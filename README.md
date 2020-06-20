@@ -13,3 +13,7 @@
 ## VBControl資料夾
 
 - 資料夾包含專案設定檔以及介面與項目檔案
+
+## VBCT為Release檔
+
+-setup可以直接安裝後使用
