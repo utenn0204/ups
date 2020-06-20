@@ -16,4 +16,4 @@
 
 ## VBCT為Release檔
 
--setup可以直接安裝後使用
+- setup可以直接安裝後使用
